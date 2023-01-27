@@ -1,5 +1,5 @@
 IMAGE=cr.yandex/crp9t7k628nhsnjetke5/metabase-clickhouse
-VERSION=v0.44.6ch-0.2
+VERSION=v0.44.6ch-0.3
 
 build:
 	docker build -t ${IMAGE}:${VERSION} --platform=linux/amd64 .
